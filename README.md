@@ -45,3 +45,5 @@ cargo tauri build
 另外用户模块懒得维护啦
 - username: admin
 - password: password
+更新日志：
+- 用户自定义轨迹功能正在开发中
