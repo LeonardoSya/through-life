@@ -51,7 +51,8 @@ pub struct DbConnection {
 
 impl DbConnection {
     pub async fn new() -> Result<Self, sqlx::Error> {
-        let database_url = "postgres://zhangyiyang:040724@localhost:5432/postgres";
+        // let database_url = "postgres://zhangyiyang:040724@localhost:5432/postgres";
+        let database_url = "postgres://default:toH1xYSMfEW6@ep-green-tree-a43jhf6a.us-east-1.aws.neon.tech:5432/verceldb?sslmode=require";
         let pool = match sqlx::postgres::PgPoolOptions::new()
             .max_connections(5)
             .connect(database_url)

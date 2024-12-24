@@ -109,7 +109,6 @@ export class TrackLayer {
       padding: 10,
       maxZoom: 18,
       pitch: 10 + Math.random() * 30,
-      bearing: Math.random() * 90 - 70,
       duration: 2000,
     });
 
