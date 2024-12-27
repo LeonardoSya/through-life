@@ -791,7 +791,7 @@ const Modal = ({ isOpen, onClose, cityData = [], dailyData = [] }: Props) => {
                                   <CountUp
                                     end={city.distance_per_day}
                                     decimals={1}
-                                    suffix=" km/天"
+                                    suffix=" m/天"
                                   />
                                 </div>
                                 <div className="text-sm text-gray-400">
@@ -846,7 +846,7 @@ const Modal = ({ isOpen, onClose, cityData = [], dailyData = [] }: Props) => {
                                   <CountUp
                                     end={city.distance_per_day}
                                     decimals={1}
-                                    suffix=" km/天"
+                                    suffix=" m/天"
                                   />
                                 </div>
                                 <div className="text-sm text-gray-400">
