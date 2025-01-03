@@ -1,13 +1,21 @@
 <p align="center">
-  <h3>🏔️ Through Life 今生足迹</h2>
+  <h3>🏔️ Through Life 一生足迹</h2>
   <strong>Journey through my life with every moment captured.</strong>
 </p>
-
- --- 
  
-Through Life （今生足迹）是一款记录我的一生轨迹的 APP，使用 Rust 编写，性能优秀，同时具备优雅的交互效果。得益于 Tauri 框架，Through Life 能够在所有主流操作系统上运行
+Through Life （一生足迹）是一款记录我的一生轨迹的 APP，使用 Rust 编写，性能优秀，同时具备优雅的交互效果。得益于 Tauri 框架，Through Life 能够在所有主流操作系统上运行
 
 [![My Skills](https://skillicons.dev/icons?i=tauri,rust,ts,react,tailwind,postgresql)](https://skillicons.dev)
+
+<a href="https://star-history.com/#LeonardoSya/through-life&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=LeonardoSya/through-life&type=Date" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=LeonardoSya/through-life&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=LeonardoSya/through-life&type=Date" />
+ </picture>
+</a>
+
+--- 
 
 [Tauri是什么？](https://v2.tauri.app/) <br />
 > Tauri 是一个构建适用于所有主流桌面和移动平台的轻量二进制文件的框架。开发者可以集成任何用于创建用户界面的可以被编译成 HTML、JavaScript 和 CSS 的前端框架，同时可以使用 Rust、Swift 和 Kotlin 等语言编写后端逻辑
